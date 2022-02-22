@@ -42,7 +42,7 @@ The action gross is bigger than the sum of drama and action.
   - Tom Hanks
   - Robert De Niro
   - Al Pacino
-  -
+  
 - Top 3 Directors:
   - Steven Spielberg
   - Anthony Russo
