@@ -66,7 +66,7 @@ https://drive.google.com/drive/folders/1v_Y7TBObGEEtj4C9ku4GvmlX0x9TTZd-
 ## Dashboard
 
 This is the dasboard of Alura food, It´s also avaiable in the following link:
-https://app.powerbi.com/groups/me/reports/29a1d11f-9e4b-4610-b63c-c16f5f48fdea/ReportSection
+https://app.powerbi.com/view?r=eyJrIjoiN2Q1OWY4MDItN2MzYi00ZTkxLWFkNTEtZjUzMjVjYzBmMjg3IiwidCI6ImZlYmViNjkyLTZjNzUtNDVkZS1iN2FjLTY3YjEwNmQzZWNjNyJ9&pageName=ReportSection
 
 ![Alura_food_dashboard](https://user-images.githubusercontent.com/82055743/155982872-b57014cb-86ba-41c1-a8b1-19ed781635a4.png)
 
