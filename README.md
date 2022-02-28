@@ -49,7 +49,7 @@ The action gross is bigger than the sum of drama and action.
   - Christopher Nolan
 
 # 2nd Week - Alura food
-In this case there is the dataset from Zomato that is an Indian multinational restaurant aggregator and food delivery company. The goal is analyse the Indian food market to deliver information that helps the decision making of Alura foods in India.
+In this case there is the dataset from Zomato that is an Indian multinational restaurant aggregator and food delivery company. The goal is analyse the Indian food market to deliver information that helps the decision making of Alura food in India.
 
 ## Dataset
 The dataset is made by json files from Zomato API. 
@@ -81,14 +81,14 @@ There are relevant conclusions in this dasboard:
   - Chinese
   - Fast Food
   
-The restarurants with North Ondoan cusine are bigger than the sum of Chinese an Fast Food.
+The number of restaurants with North Indian cusine is bigger than the sum of Chinese an Fast Food.
 
 - Top 3 cities:
   - New Delhi
   - Gurgaon
   - Noida
-  - 
-New Delhi has 5 time more restaurants than the second city Gurgaon  
+  
+New Delhi has 5 times more restaurants than the second city Gurgaon  
 
 
 
