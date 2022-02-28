@@ -48,8 +48,11 @@ The action gross is bigger than the sum of drama and action.
   - Anthony Russo
   - Christopher Nolan
 
+# 2nd Week - Alura food
+In this case there is the dataset from Zomato that is an Indian multinational restaurant aggregator and food delivery company. The goal is analyse the Indian food market to deliver information that helps the decision making of Alura foods in India.
 
-
+## Dataset
+The dataset is made by json files from Zomato API.
 
 
 
