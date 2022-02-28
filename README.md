@@ -52,8 +52,43 @@ The action gross is bigger than the sum of drama and action.
 In this case there is the dataset from Zomato that is an Indian multinational restaurant aggregator and food delivery company. The goal is analyse the Indian food market to deliver information that helps the decision making of Alura foods in India.
 
 ## Dataset
-The dataset is made by json files from Zomato API.
+The dataset is made by json files from Zomato API. 
+https://drive.google.com/drive/folders/1v_Y7TBObGEEtj4C9ku4GvmlX0x9TTZd-
 
+## Data cleaning
+- Open the json files and open sublists
+- Removal of duplicates of restaurant id
+- Removal of null values from restaurant id
+- Change the text format to number format for columns that are numeric
+- Replace Goa that is a state of India by Pangim that is its capital - It's used to the map location due to Goa is a city in other country
+- Filter only India as country
+
+## Dashboard
+
+This is the dasboard of Alura food, It´s also avaiable in the following link:
+https://app.powerbi.com/groups/me/reports/29a1d11f-9e4b-4610-b63c-c16f5f48fdea/ReportSection
+
+![Alura_food_dashboard](https://user-images.githubusercontent.com/82055743/155982872-b57014cb-86ba-41c1-a8b1-19ed781635a4.png)
+
+And segmented by city:
+
+![Alura_food_dashboard_nd](https://user-images.githubusercontent.com/82055743/155985227-4249926f-9be3-49a6-a5ea-54cafea1addb.png)
+
+## Conclusions
+There are relevant conclusions in this dasboard:
+- Top 3 cusines:
+  - North Indian
+  - Chinese
+  - Fast Food
+  
+The restarurants with North Ondoan cusine are bigger than the sum of Chinese an Fast Food.
+
+- Top 3 cities:
+  - New Delhi
+  - Gurgaon
+  - Noida
+  - 
+New Delhi has 5 time more restaurants than the second city Gurgaon  
 
 
 
