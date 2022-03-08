@@ -94,7 +94,19 @@ New Delhi has 5 times more restaurants than the second city Gurgaon
 In this case there is the dataset from Alura skimo that is an ice cream company. The goal is analyse the skimo sales database to deliver information that helps the decision making of Alura skimo.
 
 ## Dataset
+The dataset is a dump of sql files. The first step is create a database with the following code
 
+CREATE DATABASE iii_semana
+
+After that use MySQL and restoring a database:
+
+![restore dump](https://user-images.githubusercontent.com/82055743/157261712-4dc693e1-b2a6-4b96-bd34-11e999936806.png)
+
+Finally the database will be on schemas:
+
+![create database](https://user-images.githubusercontent.com/82055743/157262273-2caaa13d-7d16-424d-bfe4-7dc78deffa53.png)
+
+The last step is load the database on PowerBI.
 
 ## Data cleaning
 
