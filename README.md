@@ -94,7 +94,10 @@ New Delhi has 5 times more restaurants than the second city Gurgaon
 In this case there is the dataset from Alura skimo that is an ice cream company. The goal is analyse the skimo sales database to deliver information that helps the decision making of Alura skimo.
 
 ## Dataset
-The dataset is a dump of sql files. The first step is create a database with the following code
+The dataset is a dump of sql files, avaiable on this link 
+https://drive.google.com/drive/folders/106j-3sbhHp5CiWNxQWZDydKKoRgPc70z
+
+The first step is create a database with the following code
 
 CREATE DATABASE iii_semana
 
