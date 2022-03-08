@@ -112,6 +112,7 @@ Finally the database will be on schemas:
 The last step is load the database on PowerBI.
 
 ## :broom: Data cleaning
+- Removal of id produto (product id) number 239 because there isn't values of preço (price), custo (cost) and categoria (category), probably it is a mistake.
 
 ## :bar_chart: Dashboard
 
