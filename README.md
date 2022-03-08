@@ -1,21 +1,21 @@
-# Alura-Challenge-BI--2nd-Edition
+#  :rocket: Alura-Challenge-BI--2nd-Edition :computer:
 Alura is a coding school from Brazil that offers courses and challenges occasionally. This challenge has 4 weeks of duration and is about Business Inteligence, using mainly Power BI.
 
-# 1st Week - Alura films
+# :clapper:	1st Week - Alura films
 In this case there is the IMDB dataset which contains more than 1000 movies, the main goal is to explore the data and it visualization to deliver information that helps the decision making of Alura films.
 
-## Dataset
+##  :link: Dataset
 https://drive.google.com/drive/folders/1fBIECPox4nXVeuIfD5y8k7Vvdy1Omzj8
 
-## Data cleaning
+## :broom:	 Data cleaning
 - Removal of null values from movie titles
 - Change the text format to number format for columns that are numeric, eg: Gross
 
-## Dashboard
+## :bar_chart: Dashboard
 
 This is the dasboard of Alura films, It´s also avaiable in the following link:
 
-https://app.powerbi.com/view?r=eyJrIjoiZGQ4ZTNiYjEtMTI5Yi00N2Q1LTkzMjEtY2ZmNjhlYjM4MGM4IiwidCI6ImZlYmViNjkyLTZjNzUtNDVkZS1iN2FjLTY3YjEwNmQzZWNjNyJ9
+ https://app.powerbi.com/view?r=eyJrIjoiZGQ4ZTNiYjEtMTI5Yi00N2Q1LTkzMjEtY2ZmNjhlYjM4MGM4IiwidCI6ImZlYmViNjkyLTZjNzUtNDVkZS1iN2FjLTY3YjEwNmQzZWNjNyJ9
 
 In this dashboard there are plots for number of title by main star, gross percentage by genre. There are othes informations as IMDB Rating average and number of votes.
 
@@ -29,7 +29,7 @@ And it´s possible search by an especific title:
 
 ![Movie](https://user-images.githubusercontent.com/82055743/155115469-72f465d9-be42-469a-993c-72f04f6e8c5d.png)
 
-## Conclusions
+## :heavy_check_mark:	Conclusions
 There are relevant conclusions in this dasboard:
 - Top 3 gross by genre are:
   - Action
@@ -48,14 +48,14 @@ The action gross is bigger than the sum of drama and action.
   - Anthony Russo
   - Christopher Nolan
 
-# 2nd Week - Alura food
+# :plate_with_cutlery:	2nd Week - Alura food
 In this case there is the dataset from Zomato that is an Indian multinational restaurant aggregator and food delivery company. The goal is analyse the Indian food market to deliver information that helps the decision making of Alura food in India.
 
-## Dataset
+## :link: Dataset
 The dataset is made by json files from Zomato API. 
 https://drive.google.com/drive/folders/1v_Y7TBObGEEtj4C9ku4GvmlX0x9TTZd-
 
-## Data cleaning
+## :broom: Data cleaning
 - Open the json files and open sublists
 - Removal of duplicates of restaurant id
 - Removal of null values from restaurant id
@@ -63,7 +63,7 @@ https://drive.google.com/drive/folders/1v_Y7TBObGEEtj4C9ku4GvmlX0x9TTZd-
 - Replace Goa that is a state of India by Pangim that is its capital - It's used to the map location due to Goa is a city in other country
 - Filter only India as country
 
-## Dashboard
+## :bar_chart: Dashboard
 
 This is the dasboard of Alura food, It´s also avaiable in the following link:
 https://app.powerbi.com/view?r=eyJrIjoiN2Q1OWY4MDItN2MzYi00ZTkxLWFkNTEtZjUzMjVjYzBmMjg3IiwidCI6ImZlYmViNjkyLTZjNzUtNDVkZS1iN2FjLTY3YjEwNmQzZWNjNyJ9&pageName=ReportSection
@@ -74,7 +74,7 @@ And segmented by city:
 
 ![Alura_food_dashboard_nd](https://user-images.githubusercontent.com/82055743/155985227-4249926f-9be3-49a6-a5ea-54cafea1addb.png)
 
-## Conclusions
+## :heavy_check_mark: Conclusions
 There are relevant conclusions in this dasboard:
 - Top 3 cusines:
   - North Indian
@@ -90,10 +90,10 @@ The number of restaurants with North Indian cusine is bigger than the sum of Chi
   
 New Delhi has 5 times more restaurants than the second city Gurgaon  
 
-# 3rd Week - Alura Skimo
+#  :icecream:	3rd Week - Alura Skimo
 In this case there is the dataset from Alura skimo that is an ice cream company. The goal is analyse the skimo sales database to deliver information that helps the decision making of Alura skimo.
 
-## Dataset
+## :link: Dataset
 The dataset is a dump of sql files, avaiable on this link 
 https://drive.google.com/drive/folders/106j-3sbhHp5CiWNxQWZDydKKoRgPc70z
 
@@ -111,10 +111,12 @@ Finally the database will be on schemas:
 
 The last step is load the database on PowerBI.
 
-## Data cleaning
+## :broom: Data cleaning
 
-## Dashboard
+## :bar_chart: Dashboard
 
-## Conclusions
+## :heavy_check_mark: Conclusions
+
+# 📌 4th Week - Improvements and latest revision
 
 
