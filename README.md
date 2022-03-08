@@ -118,6 +118,22 @@ The last step is load the database on PowerBI.
 
 ## :heavy_check_mark: Conclusions
 
+- Top 3 best seller categories:
+ - Milk ice cream
+ - Fuit icecream
+ - Fuit popsicle
+
+Milk icecream sells more than a half of all categories.
+
+- Top 3 revenue by salesperson:
+ - Expedita Joaquina
+ - Bruno Gadelha
+ - Lírio Gonçalves
+ 
+ Each one has almost the same sales amount.
+ 
+ There is a seasonal component, the profit, cost and revenue are bigger during the first trimester, and almost the same in the other 3 trimesters.
+
 # 📌 4th Week - Improvements and latest revision
 
 
