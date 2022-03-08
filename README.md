@@ -90,8 +90,16 @@ The number of restaurants with North Indian cusine is bigger than the sum of Chi
   
 New Delhi has 5 times more restaurants than the second city Gurgaon  
 
+# 3rd Week - Alura Skimo
+In this case there is the dataset from Alura skimo that is an ice cream company. The goal is analyse the skimo sales database to deliver information that helps the decision making of Alura skimo.
+
+## Dataset
 
 
+## Data cleaning
 
+## Dashboard
+
+## Conclusions
 
 
