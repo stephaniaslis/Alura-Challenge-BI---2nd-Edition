@@ -114,12 +114,49 @@ The last step is load the database on PowerBI.
 ## :broom: Data cleaning
 - Removal of id produto (product id) number 239 because there isn't values of preço (price), custo (cost) and categoria (category), probably it is a mistake.
 
-## :bar_chart: Dashboard
+## :bar_chart: Data analysis and Dashboard
+The price product is imported from the 'iii_semana produtos'[PREÇO] to 'iii_semana produtos'[Price product] using the following formula:
+
+
+Price product = LOOKUPVALUE( 'iii_semana produtos'[PREÇO], 'iii_semana produtos'[ID Produto],  'iii_semana itens_pedido'[ID Produto])
+
+Other columns were created in iii_semana itens_pedido table :
+
+
+Partial revenue = 'iii_semana itens_pedido'[Price product] * 'iii_semana itens_pedido'[Quantidade_Vendida]
+
+
+Cost product = LOOKUPVALUE('iii_semana produtos'[CUSTO DO PRODUTO],'iii_semana produtos'[ID Produto], 'iii_semana itens_pedido'[ID Produto])
+
+
+Partial cost = 'iii_semana itens_pedido'[Cost product] * 'iii_semana itens_pedido'[Quantidade_Vendida]
+
+
+Partial profit = 'iii_semana itens_pedido'[Partial revenue] -'iii_semana itens_pedido'[Partial cost] 
+
+
+Category name = LOOKUPVALUE('iii_semana produtos'[Category name],'iii_semana produtos'[ID Produto], 'iii_semana itens_pedido'[ID Produto])
+
+Were created measureas the following metrics:
+- Average Ticket Price
+- Amount of sales
+- Revenue
+- Cost 
+- Profit
+
+And charts to:
+- Revenue by category
+- Revenue by sales person
+-Partial profit, revenue and cost by trimester
+
+
 The dashboard is avaiable on the following link:
 
 https://app.powerbi.com/view?r=eyJrIjoiY2YyNWVkYzktNzYxZS00NDNjLThkZTctMmNkMWQ5ODA2OWRkIiwidCI6ImZlYmViNjkyLTZjNzUtNDVkZS1iN2FjLTY3YjEwNmQzZWNjNyJ9
 
+
 ![dashboard_skimo](https://user-images.githubusercontent.com/82055743/157416800-f49307c6-41e8-4a98-a7c9-2062deb81e01.png)
+
 
 
 ## :heavy_check_mark: Conclusions
