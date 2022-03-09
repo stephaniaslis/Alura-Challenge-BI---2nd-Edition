@@ -115,6 +115,12 @@ The last step is load the database on PowerBI.
 - Removal of id produto (product id) number 239 because there isn't values of preço (price), custo (cost) and categoria (category), probably it is a mistake.
 
 ## :bar_chart: Dashboard
+The dashboard is avaiable on the following link:
+
+https://app.powerbi.com/view?r=eyJrIjoiY2YyNWVkYzktNzYxZS00NDNjLThkZTctMmNkMWQ5ODA2OWRkIiwidCI6ImZlYmViNjkyLTZjNzUtNDVkZS1iN2FjLTY3YjEwNmQzZWNjNyJ9
+
+![dashboard_skimo](https://user-images.githubusercontent.com/82055743/157416800-f49307c6-41e8-4a98-a7c9-2062deb81e01.png)
+
 
 ## :heavy_check_mark: Conclusions
 
