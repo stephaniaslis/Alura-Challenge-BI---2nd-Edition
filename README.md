@@ -86,7 +86,7 @@ https://app.powerbi.com/view?r=eyJrIjoiN2Q1OWY4MDItN2MzYi00ZTkxLWFkNTEtZjUzMjVjY
 
 ![Alura_food_dashboard](https://user-images.githubusercontent.com/82055743/155982872-b57014cb-86ba-41c1-a8b1-19ed781635a4.png)
 
-And the mobile version were creates as well:
+And the mobile version were created as well:
 
 ![Design sem nome (3)](https://user-images.githubusercontent.com/82055743/157649665-a186a19f-1f52-4dfd-b180-002a1b6294b5.png)
 
@@ -112,6 +112,7 @@ In this case there is the dataset from Alura skimo that is an ice cream company.
 
 ## :link: Dataset
 The dataset is a dump of sql files, avaiable on this link 
+
 https://drive.google.com/drive/folders/106j-3sbhHp5CiWNxQWZDydKKoRgPc70z
 
 The first step is create a database with the following code
@@ -129,7 +130,8 @@ Finally the database will be on schemas:
 The last step is load the database on PowerBI.
 
 ## :broom: Data cleaning
-- Removal of id produto (product id) number 239 because there isn't values of preço (price), custo (cost) and categoria (category), probably it is a mistake.
+- Change the text format to number format for columns that are numeric
+- Removal of id produto (product id) number 239 because there isn't values of preço (price), custo (cost) and categoria (category), probably it is a mistake
 
 ## :bar_chart: Data analysis and Dashboard
 There was some columns that had to be imported to make some measures:
@@ -166,7 +168,7 @@ There was created measureas the following metrics:
 And charts to:
 - Revenue by category
 - Revenue by sales person
--Partial profit, revenue and cost by trimester
+- Partial profit, revenue and cost by trimester
 
 
 The dashboard is avaiable on the following link:
@@ -176,7 +178,7 @@ https://app.powerbi.com/view?r=eyJrIjoiY2YyNWVkYzktNzYxZS00NDNjLThkZTctMmNkMWQ5O
 
 ![dashboard_skimo](https://user-images.githubusercontent.com/82055743/157416800-f49307c6-41e8-4a98-a7c9-2062deb81e01.png)
 
-And the mobile version were creates as well:
+And the mobile version were created as well:
 
 
 ![Design sem nome](https://user-images.githubusercontent.com/82055743/157643024-5a2dda3e-e897-446a-907c-acfc6aabff97.png)
