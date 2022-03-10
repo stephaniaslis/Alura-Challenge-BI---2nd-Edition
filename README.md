@@ -21,13 +21,11 @@ In this dashboard there are plots for number of title by main star, gross percen
 
 ![Main](https://user-images.githubusercontent.com/82055743/155108542-787005c1-4885-4741-a7cd-5e87e759af39.png)
 
-There is a sheet of director and gross that can be ordered:
+And the mobile version were creates as well:
 
-![Director_gross](https://user-images.githubusercontent.com/82055743/155115413-9118453f-5420-4cd1-a129-3d2796421b2e.png)
 
-And it´s possible search by an especific title:
+![Design sem nome (2)](https://user-images.githubusercontent.com/82055743/157647610-b402618a-6e74-444e-b8e0-4a07fef23745.png)
 
-![Movie](https://user-images.githubusercontent.com/82055743/155115469-72f465d9-be42-469a-993c-72f04f6e8c5d.png)
 
 ## :heavy_check_mark:	Conclusions
 There are relevant conclusions in this dasboard:
@@ -70,9 +68,10 @@ https://app.powerbi.com/view?r=eyJrIjoiN2Q1OWY4MDItN2MzYi00ZTkxLWFkNTEtZjUzMjVjY
 
 ![Alura_food_dashboard](https://user-images.githubusercontent.com/82055743/155982872-b57014cb-86ba-41c1-a8b1-19ed781635a4.png)
 
-And segmented by city:
+And the mobile version were creates as well:
 
-![Alura_food_dashboard_nd](https://user-images.githubusercontent.com/82055743/155985227-4249926f-9be3-49a6-a5ea-54cafea1addb.png)
+![Design sem nome (3)](https://user-images.githubusercontent.com/82055743/157649665-a186a19f-1f52-4dfd-b180-002a1b6294b5.png)
+
 
 ## :heavy_check_mark: Conclusions
 There are relevant conclusions in this dasboard:
