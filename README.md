@@ -5,6 +5,8 @@ Alura is a coding school from Brazil that offers courses and challenges occasion
 In this case there is the IMDB dataset which contains more than 1000 movies, the main goal is to explore the data and it visualization to deliver information that helps the decision making of Alura films.
 
 ##  :link: Dataset
+The dataset is avaiable on the following link:
+
 https://drive.google.com/drive/folders/1fBIECPox4nXVeuIfD5y8k7Vvdy1Omzj8
 
 ## :broom:	 Data cleaning
@@ -62,20 +64,24 @@ The action gross is bigger than the sum of drama and action.
 In this case there is the dataset from Zomato that is an Indian multinational restaurant aggregator and food delivery company. The goal is analyse the Indian food market to deliver information that helps the decision making of Alura food in India.
 
 ## :link: Dataset
-The dataset is made by json files from Zomato API. 
+The dataset is made by json files from Zomato API on the following link:
+
 https://drive.google.com/drive/folders/1v_Y7TBObGEEtj4C9ku4GvmlX0x9TTZd-
 
-## :broom: Data cleaning and Data analysis
-- Open the json files and open sublists
+## :broom: Data cleaning 
 - Removal of duplicates of restaurant id
 - Removal of null values from restaurant id
 - Change the text format to number format for columns that are numeric
+
+## :bar_chart: Dashboard and Data analysis
+
+The dataset is avaliable in json files, so the first step is open the json files and open the sublists. After that there are the following analysis:
+
 - Replace Goa that is a state of India by Pangim that is its capital - It's used to the map location due to Goa is a city in other country
 - Filter only India as country
 
-## :bar_chart: Dashboard
-
 This is the dasboard of Alura food, It´s also avaiable in the following link:
+
 https://app.powerbi.com/view?r=eyJrIjoiN2Q1OWY4MDItN2MzYi00ZTkxLWFkNTEtZjUzMjVjYzBmMjg3IiwidCI6ImZlYmViNjkyLTZjNzUtNDVkZS1iN2FjLTY3YjEwNmQzZWNjNyJ9&pageName=ReportSection
 
 ![Alura_food_dashboard](https://user-images.githubusercontent.com/82055743/155982872-b57014cb-86ba-41c1-a8b1-19ed781635a4.png)
@@ -196,5 +202,8 @@ Milk ice cream sells more than a half of the total categories.
   - The profit, cost and revenue are bigger during the first trimester, and almost the same in the other 3 trimesters.
 
 # 📌 4th Week - Improvements and latest revision
+
+- Improvement of all weeks
+- Insertion of mobile version of dashboards
 
 
