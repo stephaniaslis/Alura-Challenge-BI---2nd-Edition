@@ -115,6 +115,8 @@ The last step is load the database on PowerBI.
 - Removal of id produto (product id) number 239 because there isn't values of preço (price), custo (cost) and categoria (category), probably it is a mistake.
 
 ## :bar_chart: Data analysis and Dashboard
+There was some columns that had to be imported to make some measures:
+
 The price product is imported from the 'iii_semana produtos'[PREÇO] to 'iii_semana produtos'[Price product] using the following formula:
 
 
@@ -137,7 +139,7 @@ Partial profit = 'iii_semana itens_pedido'[Partial revenue] -'iii_semana itens_p
 
 Category name = LOOKUPVALUE('iii_semana produtos'[Category name],'iii_semana produtos'[ID Produto], 'iii_semana itens_pedido'[ID Produto])
 
-Were created measureas the following metrics:
+There was created measureas the following metrics:
 - Average Ticket Price
 - Amount of sales
 - Revenue
@@ -157,6 +159,10 @@ https://app.powerbi.com/view?r=eyJrIjoiY2YyNWVkYzktNzYxZS00NDNjLThkZTctMmNkMWQ5O
 
 ![dashboard_skimo](https://user-images.githubusercontent.com/82055743/157416800-f49307c6-41e8-4a98-a7c9-2062deb81e01.png)
 
+And the mobile version were creates as well:
+
+
+![Design sem nome](https://user-images.githubusercontent.com/82055743/157643024-5a2dda3e-e897-446a-907c-acfc6aabff97.png)
 
 
 ## :heavy_check_mark: Conclusions
