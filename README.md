@@ -11,20 +11,32 @@ https://drive.google.com/drive/folders/1fBIECPox4nXVeuIfD5y8k7Vvdy1Omzj8
 - Removal of null values from movie titles
 - Change the text format to number format for columns that are numeric, eg: Gross
 
-## :bar_chart: Dashboard
+## :bar_chart: Dashboard and Data analysis
+
+From the dataset there is some analysis as follow:
+
+Metrics:
+- Gross
+- IMDB Rating
+- Number of votes
+
+Charts:
+- Number of titles by main star
+- Gross percentage by genre
+
+A table showing Gross and director, and also a seach by movie.
 
 This is the dasboard of Alura films, It´s also avaiable in the following link:
 
- https://app.powerbi.com/view?r=eyJrIjoiZGQ4ZTNiYjEtMTI5Yi00N2Q1LTkzMjEtY2ZmNjhlYjM4MGM4IiwidCI6ImZlYmViNjkyLTZjNzUtNDVkZS1iN2FjLTY3YjEwNmQzZWNjNyJ9
-
-In this dashboard there are plots for number of title by main star, gross percentage by genre. There are othes informations as IMDB Rating average and number of votes.
-
-![Main](https://user-images.githubusercontent.com/82055743/155108542-787005c1-4885-4741-a7cd-5e87e759af39.png)
-
-And the mobile version were creates as well:
+https://app.powerbi.com/view?r=eyJrIjoiYWEwMWRmNTQtMzRhYi00MzI3LTlhZDgtNzNhMTBhMGI1ZmVmIiwidCI6ImZlYmViNjkyLTZjNzUtNDVkZS1iN2FjLTY3YjEwNmQzZWNjNyJ9&pageName=ReportSection
+ 
+![2022-03-10 (3)](https://user-images.githubusercontent.com/82055743/157682860-8e067e03-1800-40c3-8fb9-b9242b573c63.png)
 
 
-![Design sem nome (2)](https://user-images.githubusercontent.com/82055743/157647610-b402618a-6e74-444e-b8e0-4a07fef23745.png)
+
+And the mobile version were created as well:
+
+![Design sem nome (4)](https://user-images.githubusercontent.com/82055743/157675283-e5b557e1-45e2-42ee-9707-82acb03dbc87.png)
 
 
 ## :heavy_check_mark:	Conclusions
@@ -53,7 +65,7 @@ In this case there is the dataset from Zomato that is an Indian multinational re
 The dataset is made by json files from Zomato API. 
 https://drive.google.com/drive/folders/1v_Y7TBObGEEtj4C9ku4GvmlX0x9TTZd-
 
-## :broom: Data cleaning
+## :broom: Data cleaning and Data analysis
 - Open the json files and open sublists
 - Removal of duplicates of restaurant id
 - Removal of null values from restaurant id
