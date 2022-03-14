@@ -5,7 +5,7 @@ Alura is a coding school from Brazil that offers courses and challenges occasion
 In this case there is the IMDB dataset which contains more than 1000 movies, the main goal is to explore the data and it visualization to deliver information that helps the decision making of Alura films.
 
 ##  :link: Dataset
-The dataset is avaiable on the following link:
+The dataset is available on the following link:
 
 https://drive.google.com/drive/folders/1fBIECPox4nXVeuIfD5y8k7Vvdy1Omzj8
 
@@ -26,9 +26,9 @@ Charts:
 - Number of titles by main star
 - Gross percentage by genre
 
-A table showing Gross and director, and also a seach by movie.
+A table showing Gross and director, and also a search by movie.
 
-This is the dasboard of Alura films, It´s also avaiable in the following link:
+This is the dashboard of Alura films, It´s also available in the following link:
 
 https://app.powerbi.com/view?r=eyJrIjoiYWEwMWRmNTQtMzRhYi00MzI3LTlhZDgtNzNhMTBhMGI1ZmVmIiwidCI6ImZlYmViNjkyLTZjNzUtNDVkZS1iN2FjLTY3YjEwNmQzZWNjNyJ9&pageName=ReportSection
  
@@ -42,7 +42,7 @@ And the mobile version were created as well:
 
 
 ## :heavy_check_mark:	Conclusions
-There are relevant conclusions in this dasboard:
+There are relevant conclusions in this dashboard:
 - Top 3 gross by genre are:
   - Action
   - Drama
@@ -64,23 +64,23 @@ The action gross is bigger than the sum of drama and action.
 In this case there is the dataset from Zomato that is an Indian multinational restaurant aggregator and food delivery company. The goal is analyse the Indian food market to deliver information that helps the decision making of Alura food in India.
 
 ## :link: Dataset
-The dataset is made by json files from Zomato API on the following link:
+The dataset is made by json files from Zomato API, available on the following link:
 
 https://drive.google.com/drive/folders/1v_Y7TBObGEEtj4C9ku4GvmlX0x9TTZd-
 
 ## :broom: Data cleaning 
-- Removal of duplicates of restaurant id
-- Removal of null values from restaurant id
+- Removal of restaurant id duplicated
+- Removal of restaurant id null values
 - Change the text format to number format for columns that are numeric
 
 ## :bar_chart: Dashboard and Data analysis
 
-The dataset is avaliable in json files, so the first step is open the json files and open the sublists. After that there are the following analysis:
+The dataset is avaliable in json files, so the first step is open the json files and open the sublists. After that, there are the following analysis:
 
 - Replace Goa that is a state of India by Pangim that is its capital - It's used to the map location due to Goa is a city in other country
 - Filter only India as country
 
-This is the dasboard of Alura food, It´s also avaiable in the following link:
+This is the dashboard of Alura food, It´s also available in the following link:
 
 https://app.powerbi.com/view?r=eyJrIjoiN2Q1OWY4MDItN2MzYi00ZTkxLWFkNTEtZjUzMjVjYzBmMjg3IiwidCI6ImZlYmViNjkyLTZjNzUtNDVkZS1iN2FjLTY3YjEwNmQzZWNjNyJ9&pageName=ReportSection
 
@@ -92,7 +92,7 @@ And the mobile version were created as well:
 
 
 ## :heavy_check_mark: Conclusions
-There are relevant conclusions in this dasboard:
+There are relevant conclusions in this dashboard:
 - Top 3 cusines:
   - North Indian
   - Chinese
@@ -108,22 +108,22 @@ The number of restaurants with North Indian cusine is bigger than the sum of Chi
 New Delhi has 5 times more restaurants than the second city Gurgaon  
 
 #  :icecream:	3rd Week - Alura Skimo
-In this case there is the dataset from Alura skimo that is an ice cream company. The goal is analyse the skimo sales database to deliver information that helps the decision making of Alura skimo.
+In this case there is the dataset from Alura skimo, that is an ice cream company. The goal is analyse the skimo sales database to deliver information that helps the decision making of Alura skimo.
 
 ## :link: Dataset
-The dataset is a dump of sql files, avaiable on this link 
+The dataset is a dump of sql files, available on this link 
 
 https://drive.google.com/drive/folders/106j-3sbhHp5CiWNxQWZDydKKoRgPc70z
 
-The first step is create a database with the following code
+The first step is create a database with the following code:
 
 CREATE DATABASE iii_semana
 
-After that use MySQL and restoring a database:
+After that, using MySQL and restoring a database:
 
 ![restore dump](https://user-images.githubusercontent.com/82055743/157261712-4dc693e1-b2a6-4b96-bd34-11e999936806.png)
 
-Finally the database will be on schemas:
+Finally, the database is on schemas:
 
 ![create database](https://user-images.githubusercontent.com/82055743/157262273-2caaa13d-7d16-424d-bfe4-7dc78deffa53.png)
 
@@ -131,17 +131,17 @@ The last step is load the database on PowerBI.
 
 ## :broom: Data cleaning
 - Change the text format to number format for columns that are numeric
-- Removal of id produto (product id) number 239 because there isn't values of preço (price), custo (cost) and categoria (category), probably it is a mistake
+- Removal of id produto (product id) number 239, because there isn't values of preço (price), custo (cost) and categoria (category), probably it is a mistake
 
 ## :bar_chart: Data analysis and Dashboard
-There was some columns that had to be imported to make some measures:
+There are some columns that had to be imported to make some measures:
 
 The price product is imported from the 'iii_semana produtos'[PREÇO] to 'iii_semana produtos'[Price product] using the following formula:
 
 
 Price product = LOOKUPVALUE( 'iii_semana produtos'[PREÇO], 'iii_semana produtos'[ID Produto],  'iii_semana itens_pedido'[ID Produto])
 
-Other columns were created in iii_semana itens_pedido table :
+Other columns are created in iii_semana itens_pedido table :
 
 
 Partial revenue = 'iii_semana itens_pedido'[Price product] * 'iii_semana itens_pedido'[Quantidade_Vendida]
@@ -158,7 +158,7 @@ Partial profit = 'iii_semana itens_pedido'[Partial revenue] -'iii_semana itens_p
 
 Category name = LOOKUPVALUE('iii_semana produtos'[Category name],'iii_semana produtos'[ID Produto], 'iii_semana itens_pedido'[ID Produto])
 
-There was created measureas the following metrics:
+Measures are created for the following metrics:
 - Average Ticket Price
 - Amount of sales
 - Revenue
@@ -206,6 +206,7 @@ Milk ice cream sells more than a half of the total categories.
 # 📌 4th Week - Improvements and latest revision
 
 - Improvement of all weeks
-- Insertion of mobile version of dashboards
+- Insertion of dashboards mobile version
+- Latest revision
 
 
