@@ -209,4 +209,6 @@ Milk ice cream sells more than a half of the total categories.
 - Insertion of dashboards mobile version
 - Latest revision
 
+# :name_badge: Bagde
 
+![badge](https://user-images.githubusercontent.com/82055743/160876342-2e161ade-7599-44d5-bac8-fe1e1c28257f.png)
